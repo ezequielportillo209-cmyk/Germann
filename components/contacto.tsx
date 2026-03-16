@@ -3,7 +3,6 @@ import { MapPin, Phone, Clock } from "lucide-react"
 const horarios = [
   { dia: "Lunes – Viernes", hora: "8:30 a.m. – 7:00 p.m." },
   { dia: "Sábado", hora: "8:00 a.m. – 2:00 p.m." },
-  { dia: "Domingo", hora: "Cerrado" },
 ]
 
 export default function Contacto() {
