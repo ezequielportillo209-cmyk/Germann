@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4-ReaZdqjzsoqg64qgJVPW6LUi7uNfnr.webp"
+          src="/germann3.jpeg"
           alt="Audi en servicio en Lubricentro Germann"
           className="w-full h-full object-cover object-center"
         />

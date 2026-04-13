@@ -121,7 +121,7 @@ export default function Contacto() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              className="grayscale contrast-125 opacity-90"
+              className="contrast-125 opacity-90"
             />
           </div>
         </div>

@@ -30,10 +30,7 @@ const razones = [
 
 export default function PorQueElegir() {
   return (
-    <section
-      id="porque"
-      className="py-24 bg-card border-y border-border"
-    >
+    <section id="porque" className="py-24 bg-card border-y border-border">
       <div className="max-w-6xl mx-auto px-5 md:px-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left: text */}
@@ -56,23 +53,41 @@ export default function PorQueElegir() {
                   </span>
                   <div>
                     <p className="font-bold text-foreground text-sm">{title}</p>
-                    <p className="text-muted-foreground text-sm leading-relaxed mt-0.5">{desc}</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed mt-0.5">
+                      {desc}
+                    </p>
                   </div>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Right: image */}
-          <div className="relative rounded-lg overflow-hidden aspect-[4/3] order-first lg:order-last">
-            <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uVUBUqyNbWU3MLSlKCX9WQ1OBAqjer.webp"
-              alt="Exterior del Lubricentro Germann en Av. Forest 950"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background/80 to-transparent p-5">
-              <p className="text-foreground font-bold text-sm">Lubricentro Germann</p>
-              <p className="text-muted-foreground text-xs">Av. Forest 950 · CABA</p>
+          {/* Right: images */}
+          <div className="flex flex-col gap-4 order-first lg:order-last">
+            {/* Primera Imagen */}
+            <div className="relative rounded-lg overflow-hidden aspect-[4/3] shadow-lg">
+              <img
+                src="/germann1.jpeg"
+                alt="Exterior del Lubricentro Germann"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-5">
+                <p className="text-white font-bold text-sm">Lubricentro Germann</p>
+                <p className="text-gray-300 text-xs">Av. Forest 950 · CABA</p>
+              </div>
+            </div>
+
+            {/* Segunda Imagen */}
+            <div className="relative rounded-lg overflow-hidden aspect-[4/3] shadow-lg">
+              <img
+                src="/germann2.jpeg" // Asegúrate de que el nombre del archivo sea correcto
+                alt="Interior del taller Lubricentro Germann"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-5">
+                <p className="text-white font-bold text-sm">Nuestro Servicio</p>
+                <p className="text-gray-300 text-xs">Personal experto en la materia</p>
+              </div>
             </div>
           </div>
         </div>
