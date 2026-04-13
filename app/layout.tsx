@@ -10,23 +10,6 @@ export const metadata: Metadata = {
   title: 'Lubricentro Germann | Av. Forest 950 – Buenos Aires',
   description: 'Lubricentro Germann en Av. Forest 950, CABA. Cambio de aceite, filtros, revisión general y mantenimiento de vehículos. Atención personalizada, buenos precios y servicio confiable.',
   generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
 }
 
 export default function RootLayout({
