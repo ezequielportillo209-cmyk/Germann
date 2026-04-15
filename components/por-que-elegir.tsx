@@ -80,7 +80,7 @@ export default function PorQueElegir() {
             {/* Segunda Imagen */}
             <div className="relative rounded-lg overflow-hidden aspect-[4/3] shadow-lg">
               <img
-                src="/germann2.jpeg" // Asegúrate de que el nombre del archivo sea correcto
+                src="/dueño.jpeg" // Asegúrate de que el nombre del archivo sea correcto
                 alt="Interior del taller Lubricentro Germann"
                 className="w-full h-full object-cover"
               />

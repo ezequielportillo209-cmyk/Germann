@@ -54,7 +54,7 @@ function Stars() {
 
 export default function Opiniones() {
   return (
-    <section id="opiniones" className="py-24 bg-background">
+    <section id="opiniones" className="py-24 bg-[#7a6d3f]">
       <div className="max-w-6xl mx-auto px-5 md:px-10">
         {/* Header */}
         <div className="flex items-start gap-4 mb-16">

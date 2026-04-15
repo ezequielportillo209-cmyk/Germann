@@ -58,6 +58,12 @@ export default function Contacto() {
                 >
                   011 4555-3527
                 </a>
+                <a
+                  href="tel:01159544602"
+                  className="text-foreground font-semibold text-lg hover:text-primary transition-colors"
+                >
+                  011 5954-4602
+                </a>
               </div>
             </div>
 
